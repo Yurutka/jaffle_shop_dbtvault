@@ -43,4 +43,8 @@ models:
       sats:
         tags:
           - 'satellite'
+    mart_vault:
+      tags:
+        - 'mart_vault'
+      materialized: view
 
